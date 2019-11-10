@@ -262,6 +262,7 @@ footer {
     background-image: url(../imgs/footer.jpg);
     background-size: cover;
     background-position: center;
+    padding: 60px 0px;
 }
 
 .footer_right img {
@@ -295,10 +296,6 @@ footer {
         padding: 0 1rem;
         text-align: center !important;
     }
-
-    footer {
-        height: 70vh;
-    }
 }
 
 @media (max-width: 768px) {
@@ -314,10 +311,6 @@ footer {
     .article-details .articles p {
         padding: 0 0.15rem;
         text-align: right !important;
-    }
-
-    footer {
-        height: 100vh;
     }
 
     footer .footer_right {
